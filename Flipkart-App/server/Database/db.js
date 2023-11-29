@@ -2,8 +2,7 @@ import mongoose from "mongoose";
 
 const Connection = async(username,Password)=>{
 
-// Password : flipkart123
-// Username : flipkart
+
 
     const URL =`mongodb+srv://${username}:${Password}@flipkart.xwhz7gl.mongodb.net/?retryWrites=true&w=majority`
     try {
